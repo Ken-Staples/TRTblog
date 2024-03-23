@@ -9,8 +9,7 @@ export default function Header() {
   return (
     <Navbar className='border-b-2'>
       <Link to="/" className='self-center whitespace-nowrap text-md sm:text-xl font-bold dark:text-white'>
-        <span className='px-2 py-1 bg-gradient-to-r from-red-950 via-red-600 to-red-950 rounded-lg text-white'>TRT</span>
-        Blog
+        <img src="../src/assets/images/logo1.png" alt="" srcset="" width='100' />
       </Link>
       <form>
         <TextInput
