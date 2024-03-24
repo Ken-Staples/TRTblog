@@ -16,11 +16,25 @@ export default function FooterCom() {
               <Footer.Title title='About' />
               <Footer.LinkGroup col>
                 <Footer.Link
-                  href='/about'
+                  href='#'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
                   TRT's Blog Mission
+                </Footer.Link>
+                <Footer.Link
+                  href='#'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Resources
+                </Footer.Link>
+                <Footer.Link
+                  href='/about'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  About Us
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
