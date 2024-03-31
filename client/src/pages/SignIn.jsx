@@ -48,7 +48,7 @@ export default function SignIn() {
         {/* left */}
         <div className='flex-1'>
           <Link to='/' className='font-bold dark:text-white text-4xl'>
-            <img src="../src/assets/images/logo2.png" alt="" srcset="" width='400' />
+            <img src="../src/assets/images/logo2.png" alt="" srcSet="" width='400' />
           </Link>
           <p className='text-sm mt-5'>
 
