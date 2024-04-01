@@ -50,6 +50,13 @@ export default function FooterCom() {
                 >
                   Resources
                 </Footer.Link>
+                <Footer.Link
+                  href='/landacknowledgement'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Land Acknowledgement
+                </Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>

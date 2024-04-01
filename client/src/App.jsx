@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home.jsx';
-import About from './pages/about.jsx';
+import Home from './pages/Home';
+import About from './pages/about';
 import SignIn from './pages/SignIn';
 import Dashboard from './pages/Dashboard';
 import Projects from './pages/Projects';
@@ -14,6 +14,7 @@ import UpdatePost from './pages/UpdatePost';
 import PostPage from './pages/PostPage';
 import ScrollToTop from './components/ScrollToTop';
 import Search from './pages/Search';
+import LandAcknowledgement from './pages/LandAcknowledgement';
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <Route path='/sign-in' element={<SignIn />} />
         <Route path='/sign-up' element={<SignUp />} />
         <Route path='/search' element={<Search />} />
+        <Route path='/landacknowledgement' element={<LandAcknowledgement />} />
         <Route element={<PrivateRoute />}>
           <Route path='/dashboard' element={<Dashboard />} />
         </Route>
@@ -36,6 +38,7 @@ export default function App() {
 
         <Route path='/projects' element={<Projects />} />
         <Route path='/post/:postSlug' element={<PostPage />} />
+        
       </Routes>
       <Footer />
     </BrowserRouter>
