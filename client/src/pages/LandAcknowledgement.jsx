@@ -5,7 +5,7 @@ export default function LandAcknowledgement() {
     <div className='min-h-screen flex items-center justify-center'>
       <div className='p-3 text-center'>
         <div>
-          <img src='../src/assets/images/landacknowledgement.png' width='300' class='h-auto max-w-lg mx-auto' />
+          <img src='https://trtblogbucket.s3.us-west-2.amazonaws.com/landacknowledgement.png' width='300' class='h-auto max-w-lg mx-auto' />
           <h1 className='text-3xl font font-semibold text-center my-7  text-black dark:text-white'>
             Land Acknowledgment
           </h1>
