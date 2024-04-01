@@ -17,7 +17,7 @@ export default function CallToAction() {
             </Button>
         </div>
         <div className="p-7 flex-1">
-        <img src="../src/assets/images/neighbourhoods.png" alt="" srcSet="" width='500' />
+        <img src="https://trtblogbucket.s3.us-west-2.amazonaws.com/neighbourhoods.png" alt="" srcSet="" width='500' />
         </div>
     </div>
   )
