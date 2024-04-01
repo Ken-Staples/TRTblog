@@ -15,6 +15,8 @@ import PostPage from './pages/PostPage';
 import ScrollToTop from './components/ScrollToTop';
 import Search from './pages/Search';
 import LandAcknowledgement from './pages/LandAcknowledgement';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsandConditions from './pages/TermsandConditions';
 
 export default function App() {
   return (
@@ -28,6 +30,8 @@ export default function App() {
         <Route path='/sign-up' element={<SignUp />} />
         <Route path='/search' element={<Search />} />
         <Route path='/landacknowledgement' element={<LandAcknowledgement />} />
+        <Route path='/privacypolicy' element={<PrivacyPolicy />} />
+        <Route path='/termsandconditions' element={<TermsandConditions />} />
         <Route element={<PrivateRoute />}>
           <Route path='/dashboard' element={<Dashboard />} />
         </Route>

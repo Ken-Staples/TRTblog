@@ -16,25 +16,25 @@ export default function FooterCom() {
               <Footer.Title title='Links' />
               <Footer.LinkGroup col>
               <Footer.Link
-                  href='#'
+                  href='/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  Store
+                  Store (Coming Soon)
                 </Footer.Link>
                 <Footer.Link
-                  href='#'
+                  href='/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  Help
+                  Help (Coming Soon)
                 </Footer.Link>
                 <Footer.Link
-                  href='#'
+                  href='/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  FAQ
+                  FAQ (Coming Soon)
                 </Footer.Link>
                 <Footer.Link
                   href='/about'
@@ -44,11 +44,11 @@ export default function FooterCom() {
                   About Us
                 </Footer.Link>
                 <Footer.Link
-                  href='/about'
+                  href='/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  Resources
+                  Resources (Coming Soon)
                 </Footer.Link>
                 <Footer.Link
                   href='/landacknowledgement'
@@ -63,7 +63,7 @@ export default function FooterCom() {
               <Footer.Title title='Contact us' />
               <Footer.LinkGroup col>
                 <Footer.Link
-                  href='#'
+                  href='mailto: totallyrandomthoughts2024@gmail.com'
                   target='_blank'
                   rel='noopener noreferrer'>
                   E-mail
@@ -71,18 +71,18 @@ export default function FooterCom() {
                 <Footer.Link href='#'
                   target='_blank'
                   rel='noopener noreferrer'>
-                    Messenger</Footer.Link>
+                    Messenger (Coming Soon)</Footer.Link>
                     <Footer.Link href='#'
                   target='_blank'
                   rel='noopener noreferrer'>
-                    X</Footer.Link>
+                    X (Common Soon)</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
               <Footer.Title title='Legal' />
               <Footer.LinkGroup col>
-                <Footer.Link href='#'>Privacy Policy</Footer.Link>
-                <Footer.Link href='#'>Terms &amp; Conditions</Footer.Link>
+                <Footer.Link href='/privacypolicy'>Privacy Policy</Footer.Link>
+                <Footer.Link href='/termsandconditions'>Terms &amp; Conditions</Footer.Link>
               </Footer.LinkGroup>
             </div>
           </div>
