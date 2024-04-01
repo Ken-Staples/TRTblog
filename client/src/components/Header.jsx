@@ -52,7 +52,7 @@ export default function Header() {
   return (
     <Navbar className='border-b-2'>
       <Link to="/" className='self-center whitespace-nowrap text-md sm:text-xl font-bold dark:text-white'>
-        <img src="../src/assets/images/logo2.png" alt="" srcSet="" width='100' />
+        <img src="../src/images/logo2.png" alt="" srcSet="" width='100' />
       </Link>
       <form onSubmit={handleSubmit}>
         <TextInput
