@@ -16,7 +16,7 @@ export default function Home() {
   }, []);
   return (
     <div>
-      <div className='flex flex-col p-8 gap-6 px-3 max-w-6xl mx-auto '>
+      <div className='flex flex-col p-8 gap-6 max-w-6xl mx-auto '>
         <img src="https://trtblogbucket.s3.us-west-2.amazonaws.com/Introphotologo.png" width='600' className ='h-auto max-w-xl rounded-lg shadow-xl dark:shadow-gray-800 self-center' />
         <h1 className='text-xl font-bold lg:text-4xl text-center'>Welcome to <br/>TOTALLY RANDOM THOUGHTS</h1>
         <p className='text-gray-400 text-xs indent-10 sm:text-xl'>
