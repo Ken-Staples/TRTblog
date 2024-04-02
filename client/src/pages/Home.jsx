@@ -16,7 +16,7 @@ export default function Home() {
   }, []);
   return (
     <div>
-      <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto '>
+      <div className='flex flex-col p-8 gap-6 px-3 max-w-6xl mx-auto '>
         <img src="https://trtblogbucket.s3.us-west-2.amazonaws.com/Introphotologo.png" width='600' className ='h-auto max-w-xl rounded-lg shadow-xl dark:shadow-gray-800 self-center' />
         <h1 className='text-xl font-bold lg:text-4xl text-center'>Welcome to <br/>TOTALLY RANDOM THOUGHTS</h1>
         <p className='text-gray-400 text-xs indent-10 sm:text-xl'>
@@ -27,11 +27,11 @@ export default function Home() {
         <p className='text-gray-400 text-xs indent-10 sm:text-xl'>So, if your spirit yearns for adventure at the fringes of reality, if your mind thirsts for knowledge that defies the ordinary, **Totally Random Thoughts** is your guide through the labyrinth of the unknown. Unleash your imagination and let it soar into the realms of possibility and beyond. Here, every question is a map, and every answer is a new destination. Join us, and let's explore the compass of the curious together.</p>
       </div>
       
-      <div className='max-w-6xl mx-auto p-3 flex flex-col gap-8 py-7'>
+      <div className='max-w-6xl mx-auto p-3 flex flex-col gap-6 py-7'>
         {posts && posts.length > 0 && (
-          <div className='flex flex-col gap-6'>
+          <div className='flex flex-col gap-2'>
             <h2 className='text-2xl font-semibold text-center'>Recent Posts</h2>
-            <div className='flex flex-wrap gap-4'>
+            <div className='flex flex-wrap gap-2'>
               {posts.map((post) => (
                 <PostCard key={post._id} post={post} />
               ))}
