@@ -22,14 +22,14 @@ export default function Home() {
           <img
             src="https://trtblogbucket.s3.us-west-2.amazonaws.com/Introphotologo.png"
           
-            width='500' className="float-left m-5 self-center rounded-lg dark:shadow-gray-800"
+            width='500' className="float-left mb-5 mr-5 mt-5 rounded-lg dark:shadow-gray-800"
           />
           <h1 className="text-4xl font-bold lg:text-6xl text-center pb-4">
             Welcome to <br />
             TOTALLY RANDOM THOUGHTS
           </h1>
           <div className="flex-auto space-y-4">
-            <p className="text-gray-400 text-xs indent-10 sm:text-xl">
+            <p className="text-gray-400 text-l indent-10 md:text-xl">
               The digital alcove where curiosity reigns and the extraordinary is
               the norm. Here, we traverse the corridors of time, weaving through
               the past, dancing in the present, and peeking into the future. Our
@@ -37,7 +37,7 @@ export default function Home() {
               extraordinary—from the enigmas of science to the whispers of the
               supernatural.
             </p>
-            <p className="text-gray-400 text-xs indent-10 sm:text-xl">
+            <p className="text-gray-400 text-l indent-10 md:text-xl">
               In this haven, we don't just read about conspiracies; we unravel
               them. We don't just hear about paranormal events; we investigate
               them. And the bizarre? We don't shy away; we celebrate it. Each
@@ -45,7 +45,7 @@ export default function Home() {
               thought, beckoning you to embark on an odyssey where reality and
               the arcane converge.
             </p>
-            <p className="text-gray-400 text-xs indent-10 sm:text-xl">
+            <p className="text-gray-400 text-l indent-10 md:text-xl">
               So, if your spirit yearns for adventure at the fringes of reality,
               if your mind thirsts for knowledge that defies the ordinary,
               **Totally Random Thoughts** is your guide through the labyrinth of
