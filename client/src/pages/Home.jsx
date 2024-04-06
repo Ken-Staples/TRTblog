@@ -22,7 +22,7 @@ export default function Home() {
           <img
             src="https://trtblogbucket.s3.us-west-2.amazonaws.com/Introphotologo.png"
           
-            width='500' className="float-left mb-5 mr-5 mt-5 rounded-lg dark:shadow-gray-800"
+            width='500' className="float-left mb-5 mr-8 mt-5 rounded-lg dark:shadow-gray-800"
           />
           <h1 className="text-4xl font-bold lg:text-6xl text-center pb-4">
             Welcome to <br />
